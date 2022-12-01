@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site Html 5 e CSS responsivo</title>
+	<meta name="author" content="Cleber Leão" />
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="content-language" content="pt-br" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,800" rel="stylesheet" type="text/css"/>
+	<link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+	<link href="fontawesome/css/brands.css" rel="stylesheet">
+	<link href="fontawesome/css/solid.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body class="centro clearfixbody">
+	<header id="topo">
+		<h1><a href="index.html" title="Como Criar um site responsivo html5 e css"><span></span></a></h1>
+		<nav>
+			<!-- Menu de navegação -->
+			<ul>
+				<li><a href="#logo" class="ativo">Home</a></li>
+				<li><a href="#produto">Produtos</a></li>
+				<li><a href="#mapa">Localização</a></li>
+				<li><a href="#contato">Contato</a></li>
+				<li><a href="trabalho.html" target="_blank">Trabalho BootStrap</a></li>
+			</ul>
+		</nav>
+	</header>
+		<!-- Seção de chamada do site -->
+	<section class="chamada">
+		<h2><span>Pet Shop </span> DO LEÃO <span> onde o animal</span> CHEGA <span> triste e sai </span>FELIZÃO</h2>
+		<h3>Venha e faça a alegria do seu PET, banho, tosa e cuidado especial é só no PET SHOP DO LEÃO</h3>
+	</section>
+		<!-- 
+	<section id="produto" class="meio">
+		<div>
+			<img class="foto-fachada" src="img/fachadas-de-pet-shop.png">
+		</div>
+	</section> -->
+	<section id="produto" class="meio">
+		<div class="desktop">
+			<figure>
+				<img src="img/banho.png">
+			</figure>
+			<h3>Banho & Tosa</h3>
+			<p>
+				Temos uma equipe altamente qualificada e apaixonada por pets pronta para atender todas as necessidades dos animais e seus tutores.
+				<span class="botao"><a href="#contato"> Contato </a></span>
+			</p>
+		</div>
+		<div class="tablet">
+			<figure>
+				<img src="img/animais-juntos.png">
+			</figure>
+			<h3>Veterinária Geral</h3>
+			<p>
+				Nossa equipe é composta por médicos veterinários especialistas em diversas áreas com foco em cães e gatos. Temos todo o preparo para cuidar do seu animal com muito amor através de exames clínicos e laboratoriais, cirurgias, consultas preventivas, internações, vacinação e atendimento de emergência.
+				<span class="botao"><a href="#contato"> Contato </a></span>
+			</p>
+		</div>
+		<div class="mobile">
+			<figure>
+				<img src="img/bull-dog.png">
+			</figure>
+			<h3>Animais Saudáveis</h3>
+			<p>
+				Os nossos processos foram definidos pelos melhores profissionais da área, tornando o banho do seu pet um momento tranquilo, agradável e seguro.
+				<span class="botao"><a href="#contato"> Contato </a></span>
+			</p>
+		</div>
+	</section>
+	<section id="mapa" class="meio-mapa">
+		<div class="mapa">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.679203070952!2d-44.03842398505425!3d-19.937918843704512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa695ea5dd82e1d%3A0xca75cdd5bbcad1d6!2sFaculdade%20Senac%20-%20Contagem!5e0!3m2!1spt-BR!2sbr!4v1669157937639!5m2!1spt-BR!2sbr" class="mapa" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>
+	</section>
+	</section>
+	<section id="contato" class="meio-contato">
+		<div><h3>Entre em Contato</h3></div>
+		<div class="contato">
+			<form method="post">
+			<div>
+				<label for="nome">Nome:</label>
+				<input type="texto" id="nome" name="nome_usuario">
+			</div>
+			<div>
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" name="email_usuario">
+			</div>
+			<div>
+				<label for="texto">Texto:</label>
+				<textarea id="texto" name="texto_usuario"></textarea>
+			</div>
+			<div class="button">
+				<button type="submit">Enviar</button>
+			</div>
+			</form>
+		</div>
+	</section>
+		<!-- Final do site rodapé -->
+	<footer>
+		<small class="copyleft">
+			<p>Copyleft 2022 - Open Source Professor <a href="https:/">Cleber Leão </a></p>
+		</small>
+		<small class="social">
+			<figure> <!-- imagens da rede social -->
+			<!--	<a title="Entre em contato pelo Linkedin" href="https://www.linkedin.com/in/cleberleao/" target="_blank"><img  src="img/linkedin.png"></a>
+				<a title="Acesse nosso Instagram" href="https://www.instagram.com/professorcleberleao" target="_blank"><img  src="img/instagram.png"></a>
+				<a title="Assista nossos vídeo no Youtube" href="https://www.youtube.com/@cleberleao1018" target="_blank"><img  src="img/youtube.png"></a>
+				<a title="Acesse nosso Facebook" href="https://www.facebook.com/cleber.leao.almeida" target="_blank"><img src="img/facebook.png"></a>
+			-->
+			
+			<i class="cor-icone fa-brands fa-facebook-square fa-3x"></i>
+			<i class="cor-icone fa-brands fa-youtube-square fa-3x"></i>
+			<i class="cor-icone fa-brands fa-linkedin fa-3x"></i>
+			<i class="cor-icone fa-brands fa-instagram-square fa-3x"></i>
+
+			</figure>
+		</small>
+	</footer>
+	<figure class="whatsapp">
+		<a title="Entre em contato pelo WhatsApp" href="https://api.whatsapp.com/send?phone=31996747875" target="_blank"><img src="img/whatsapp-fixo.png" ></a>
+	</figure>
+	<figure class="volta-topo">
+		<a href="#topo" title="Voltar ao topo"><img src="img/top.png" ></a>
+	<figure>
+</body>
+</html>
